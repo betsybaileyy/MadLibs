@@ -1,6 +1,8 @@
 
 def madlib_go():
     print("Welcome to MadLibs")
+    print("Please read the the paragraph below and then fill in the prompts to complete the spooky Halloween story!")
+    print("Happy Halloween! It’s time to get (emphasis adjective) spooky. Get your (article of clothing) on and prepare to (verb) around the town. Every year on October 31st, (fictional city) hosts the (adjective) party and (plural proper noun) never forget to come. It is important to greet everyone by saying “ (noun) or (noun) “. We will eat lots of (food) and drink (beverage). Bring your finest (adjective) (noun) and don’t forget to (verb) because this is the most (adjective) day of the year. ")
     emphasis_adjective = user_input("Enter an emphasis adjective: ")
     article_of_clothing = user_input("Enter an article of clothing: ")
     verb_one = user_input("Enter a verb: ")
